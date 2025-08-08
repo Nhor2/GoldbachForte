@@ -56,7 +56,7 @@ Il programma è scritto in VB.NET e utilizza un BackgroundWorker per gestire l'e
 
 2\. Compilare ed eseguire  
 
-3\. Impostare il numero di partenza e avviare il calcolo batch continuo  
+3\. Impostare il numero di partenza e avviare il calcolo batch continuo. Se presente un log viene impostato un numero di partenza in automatico uguale al primo successivo a quello trovato.  
 
 4\. I risultati verranno salvati in `Goldbach\_forte.txt` nella cartella del progetto
 
