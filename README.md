@@ -69,24 +69,36 @@ Il programma è scritto in VB.NET e utilizza un BackgroundWorker per gestire l'e
 ### \## Ultimi numeri calcolati
 
 
+\[8695990]: 8695990 = 29 + 8695961
 
-\[3909990]: 3909990 = 11 + 3909979
+\[8695992]: 8695992 = 31 + 8695961
 
-\[3909992]: 3909992 = 13 + 3909979
+\[8695994]: 8695994 = 3 + 8695991
 
-\[3909994]: 3909994 = 71 + 3909923
+\[8695996]: 8695996 = 5 + 8695991
 
-\[3909996]: 3909996 = 17 + 3909979
+\[8695998]: 8695998 = 7 + 8695991
 
-\[3909998]: 3909998 = 19 + 3909979
+\[8696000]: 8696000 = 43 + 8695957
 
-\[3910000]: 3910000 = 41 + 3909959
 
 
 
 ---
 
 
+### \## Download file log
+
+
+\I risultati del calcolo batch sono disponibili anche in formato compresso .7z, per ridurre la dimensione del file e facilitarne il download.
+
+\Nota: Il file è compresso in formato .7z e richiede un programma compatibile per essere estratto.
+
+\Goldbach_forte_001.7z (https://drive.google.com/uc?export=download&id=10ry6MYKErc4wdJSGF6K1V6xQlqv5qn3o/view?usp=drive_link)
+
+
+
+---
 
 ### \## Contatti
 
