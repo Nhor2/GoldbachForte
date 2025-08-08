@@ -40,7 +40,7 @@ Il programma è scritto in VB.NET e utilizza un BackgroundWorker per gestire l'e
 
 \- `bin/debug/` — Contiene il file di testo di calcolo per l'avvio (il file eseguibile è escluso dal repository)  
 
-\- `Goldbach\_forte.txt` — File di output con i risultati dei batch di calcolo  
+\- `Goldbach_forte.txt` — File di output con i risultati dei batch di calcolo  
 
 
 
