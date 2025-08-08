@@ -621,10 +621,8 @@ Public Class Form1
     End Sub
 
     Private Sub LimitRichTextBoxLines(rtb As RichTextBox, maxLines As Integer)
-        Dim lines = rtb.Lines
-        If lines.Length > maxLines Then
-            Dim newLines = lines.Skip(lines.Length - maxLines).ToArray()
-            rtb.Lines = newLines
+        If rtb.Lines.Length > maxLines Then
+            rtb.Clear()
         End If
     End Sub
 
