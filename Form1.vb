@@ -593,6 +593,8 @@ Public Class Form1
             Dim msg As String = $"Batch {counterBatch} completato." & vbCrLf
             RichTextBox4.Text = msg & RichTextBox4.Text
             counterBatch += 1
+
+            LimitRichTextBoxLines(RichTextBox4, 1000)
         End If
 
         ProgressBar1.Value = 0
