@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{3FE39537-8FD4-486A-BF80-2FC0FE3F72EE}|Sedici-9.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3FE39537-8FD4-486A-BF80-2FC0FE3F72EE}|Sedici-9.vbproj|c:\\users\\lordm\\documents\\github\\goldbachforte\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "AbsoluteMoniker": "D:0:0:{3FE39537-8FD4-486A-BF80-2FC0FE3F72EE}|Sedici-9.vbproj|C:\\Users\\lordm\\Documents\\GitHub\\GoldbachForte\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
       "RelativeMoniker": "D:0:0:{3FE39537-8FD4-486A-BF80-2FC0FE3F72EE}|Sedici-9.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     }
   ],
@@ -42,8 +42,7 @@
               "ToolTip": "C:\\Users\\lordm\\Documents\\GitHub\\GoldbachForte\\Form1.vb [Progettazione]",
               "RelativeToolTip": "Form1.vb [Progettazione]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
-              "WhenOpened": "2025-08-08T07:47:22.883Z",
-              "EditorCaption": " [Progettazione]"
+              "WhenOpened": "2025-08-08T07:47:22.883Z"
             }
           ]
         }

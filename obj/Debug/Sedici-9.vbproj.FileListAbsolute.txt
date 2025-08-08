@@ -1,0 +1,12 @@
+C:\Users\lordm\Documents\GitHub\GoldbachForte\bin\Debug\Sedici-9.exe.config
+C:\Users\lordm\Documents\GitHub\GoldbachForte\bin\Debug\Sedici-9.exe
+C:\Users\lordm\Documents\GitHub\GoldbachForte\bin\Debug\Sedici-9.pdb
+C:\Users\lordm\Documents\GitHub\GoldbachForte\bin\Debug\Sedici-9.xml
+C:\Users\lordm\Documents\GitHub\GoldbachForte\obj\Debug\Sedici-9.vbproj.AssemblyReference.cache
+C:\Users\lordm\Documents\GitHub\GoldbachForte\obj\Debug\Sedici_9.Form1.resources
+C:\Users\lordm\Documents\GitHub\GoldbachForte\obj\Debug\Sedici_9.Resources.resources
+C:\Users\lordm\Documents\GitHub\GoldbachForte\obj\Debug\Sedici-9.vbproj.GenerateResource.cache
+C:\Users\lordm\Documents\GitHub\GoldbachForte\obj\Debug\Sedici-9.vbproj.CoreCompileInputs.cache
+C:\Users\lordm\Documents\GitHub\GoldbachForte\obj\Debug\Sedici-9.exe
+C:\Users\lordm\Documents\GitHub\GoldbachForte\obj\Debug\Sedici-9.xml
+C:\Users\lordm\Documents\GitHub\GoldbachForte\obj\Debug\Sedici-9.pdb
