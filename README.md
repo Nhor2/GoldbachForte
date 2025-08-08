@@ -91,11 +91,11 @@ Il programma è scritto in VB.NET e utilizza un BackgroundWorker per gestire l'e
 
 
 I risultati del calcolo batch sono disponibili anche in formato compresso .7z, per ridurre la dimensione del file e facilitarne il download.
-
 Nota: Il file è compresso in formato .7z e richiede un programma compatibile per essere estratto.
 
+
 Goldbach_forte_001.7z 12Mb
-- (https://drive.google.com/uc?export=download&id=10ry6MYKErc4wdJSGF6K1V6xQlqv5qn3o)
+(https://drive.google.com/uc?export=download&id=10ry6MYKErc4wdJSGF6K1V6xQlqv5qn3o)
 
 
 
