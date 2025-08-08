@@ -94,7 +94,7 @@ I risultati del calcolo batch sono disponibili anche in formato compresso .7z, p
 
 Nota: Il file è compresso in formato .7z e richiede un programma compatibile per essere estratto.
 
-Goldbach_forte_001.7z 12Mb - (https://drive.google.com/uc?export=download&id=10ry6MYKErc4wdJSGF6K1V6xQlqv5qn3o/view?usp=drive_link)
+Goldbach_forte_001.7z 12Mb - (https://drive.google.com/uc?export=download&id=10ry6MYKErc4wdJSGF6K1V6xQlqv5qn3o)
 
 
 
