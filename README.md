@@ -14,7 +14,7 @@ Il programma esegue il calcolo in batch, salvando i risultati in file di testo.
 
 
 
-###### \## Descrizione
+### \## Descrizione
 
 
 
@@ -28,7 +28,7 @@ Il programma è scritto in VB.NET e utilizza un BackgroundWorker per gestire l'e
 
 
 
-###### \## Contenuti del repository
+### \## Contenuti del repository
 
 
 
@@ -48,7 +48,7 @@ Il programma è scritto in VB.NET e utilizza un BackgroundWorker per gestire l'e
 
 
 
-###### \## Come usare
+### \## Come usare
 
 
 
@@ -66,7 +66,7 @@ Il programma è scritto in VB.NET e utilizza un BackgroundWorker per gestire l'e
 
 
 
-###### \## Ultimi numeri calcolati
+### \## Ultimi numeri calcolati
 
 
 
@@ -88,7 +88,7 @@ Il programma è scritto in VB.NET e utilizza un BackgroundWorker per gestire l'e
 
 
 
-###### \## Contatti
+### \## Contatti
 
 
 
