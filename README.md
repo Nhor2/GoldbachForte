@@ -69,17 +69,17 @@ Il programma è scritto in VB.NET e utilizza un BackgroundWorker per gestire l'e
 ### \## Ultimi numeri calcolati
 
 
-\[107946236]: 107946236 = 3 + 107946233
+\[1006021634]: 1006021634 = 61 + 1006021573
 
-\[107946238]: 107946238 = 5 + 107946233
+\[1006021636]: 1006021636 = 23 + 1006021613
 
-\[107946240]: 107946240 = 7 + 107946233
+\[1006021638]: 1006021638 = 31 + 1006021607
 
-\[107946242]: 107946242 = 13 + 107946229
+\[1006021640]: 1006021640 = 67 + 1006021573
 
-\[107946244]: 107946244 = 11 + 107946233
+\[1006021642]: 1006021642 = 29 + 1006021613
 
-\[107946246]: 107946246 = 13 + 107946233
+\[1006021644]: 1006021644 = 31 + 1006021613
 
 
 ---
@@ -97,6 +97,8 @@ Nota: Il file è compresso in formato .7z e richiede un programma compatibile pe
 🔗 [Scarica Goldbach_forte_002.7z (13 MB)](https://drive.google.com/uc?export=download&id=1iDndE67ujsB2iqoqJqwH1Sya1bzEBlQ-)
 
 🔗 [Scarica Goldbach_forte_100.7z (13 MB)](https://drive.google.com/uc?export=download&id=1eGcfoEIPXpaSparbZ_59seJUTMmjxR6R)
+
+🔗 [Scarica Goldbach_forte_1000.7z (10 MB)](https://drive.google.com/uc?export=download&id=1779j7o1b0IchUuu-Wqrra7cfFIo_xU_w)
 
 
 ---
