@@ -30,10 +30,10 @@ Public Class Form1
                         Dim endBracket = line.IndexOf("]")
                         Dim numberString = line.Substring(startBracket, endBracket - startBracket)
 
-                        Dim lastNumber As Integer
-                        If Integer.TryParse(numberString, lastNumber) Then
+                        Dim lastNumber As BigInteger = 0
+                        If BigInteger.TryParse(numberString, lastNumber) Then
                             ' Imposta il TextBox con il prossimo numero pari
-                            Dim nextNumber As Integer = If(lastNumber Mod 2 = 0, lastNumber + 2, lastNumber + 1)
+                            Dim nextNumber As BigInteger = If(lastNumber Mod 2 = 0, lastNumber + 2, lastNumber + 1)
                             TextBoxRange2.Text = nextNumber.ToString()
                             LabelAutoStart.Visible = True
                         End If
@@ -499,7 +499,7 @@ Public Class Form1
     'Calcolo Batch Continuo
 
     Private batchSize As Integer = 1000
-    Private currentStart As Integer = 2 ' inizializza da 2 o da input
+    Private currentStart As BigInteger = 2 ' inizializza da 2 o da input
     Private CalcStop As Boolean = False ' stoppa il calcolo continuo
     Private counterBatch As Integer = 0
 
@@ -512,13 +512,19 @@ Public Class Form1
 
         ' Leggi input, minimo 2
         Dim input As String = TextBoxRange2.Text.Trim()
-        Dim n1 As Integer
-        If Not Integer.TryParse(input, n1) Then
+        Dim n1 As BigInteger = 0
+        If Not BigInteger.TryParse(input, n1) Then
             MessageBox.Show("Inserisci un numero intero valido da cui partire.")
             Return
         End If
 
-        currentStart = Math.Max(2, n1)
+        If n1 > 2 Then
+            currentStart = n1
+        Else
+            currentStart = 2
+        End If
+
+        'currentStart = Math.Max(2, n1)
         ProgressBar1.Value = 0
         RichTextBox4.Clear() ' Pulisce all'avvio del nuovo batch
 
@@ -531,15 +537,20 @@ Public Class Form1
         If BackgroundWorker2.IsBusy Then
             BackgroundWorker2.CancelAsync()
         End If
+
+        'Rilascio tutte le risorse
+        GC.Collect()
+        GC.WaitForPendingFinalizers()
+        GC.Collect()
     End Sub
 
     Private Sub BackgroundWorker2_DoWork(sender As Object, e As DoWorkEventArgs) Handles BackgroundWorker2.DoWork
-        Dim startNum As Integer = CType(e.Argument, Integer)
-        Dim endNum As Integer = startNum + batchSize - 1
+        Dim startNum As BigInteger = CType(e.Argument, BigInteger)
+        Dim endNum As BigInteger = startNum + batchSize - 1
         Dim worker As BackgroundWorker = CType(sender, BackgroundWorker)
         Dim results As New System.Text.StringBuilder()
 
-        For num As Integer = startNum To endNum
+        For num As BigInteger = startNum To endNum
             If worker.CancellationPending Then
                 e.Cancel = True
                 Exit For
@@ -548,12 +559,12 @@ Public Class Form1
             If num > 2 AndAlso num Mod 2 = 0 Then
                 'Dim res As String = GoldbachForte(num) 'Integer
                 'Trasformiamo in BigInteger per non fermarci mai!!!
-                Dim bigNum As BigInteger = New BigInteger(num)
+                Dim bigNum As BigInteger = num ' New BigInteger(num)
                 Dim res As String = GoldbachForteBig(bigNum) 'BigInteger
                 results.AppendLine($"[{num}]: {res}")
             End If
 
-            Dim progress As Integer = CInt(((num - startNum + 1) / batchSize) * 100)
+            Dim progress As BigInteger = CInt(((num - startNum + 1) / batchSize) * 100)
             worker.ReportProgress(progress, $"[{num}] calcolato")
         Next
 
@@ -601,7 +612,7 @@ Public Class Form1
 
         If Not e.Cancelled AndAlso e.Error Is Nothing Then
             ' Prendi prossimo start da e.Result e rilancia BackgroundWorker
-            Dim nextStart As Integer = CType(e.Result, Integer)
+            Dim nextStart As BigInteger = CType(e.Result, BigInteger)
             currentStart = nextStart
 
             ' Pulisci un po’ il RichTextBox4 per evitare crescita eccessiva (es. ultime 1000 righe)
