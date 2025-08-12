@@ -103,6 +103,8 @@ Nota: Il file è compresso in formato .7z e richiede un programma compatibile pe
 🔗 [Scarica Goldbach_forte_100000.7z (1,2 MB)](https://drive.google.com/uc?export=download&id=1oDBxU9v6dIsEyQPmsaAd46Iv5Xa7CkTH)
 
 🔗 [Scarica Goldbach_forte_Final.7z (353 Kb)](https://drive.google.com/uc?export=download&id=1d42DqAb2KVFSBtMAoAaTHhJnRQ-6ZRnH)
+
+
 ---
 
 ### \## Contatti
